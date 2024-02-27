@@ -35,16 +35,31 @@
 					<section id="main" class="wrapper">
 						<div class="inner">
 							<h1 class="major">Computer Vision for Breast Conserving Surgery</h1>
-							<span class="image fit"><img src="images/Correspondence.jpg" alt="Stereo camera images with fiducials identified." /></span>
+							<span class="image" ><img src="images/VolunteerSkinTracking.gif" alt="Stereo camera images with fiducials identified." /></span>
 							<p> Character based fiducials can be used to track points on the breast surface. These surface points are incorporated to a four-panel guidance display that shows a surgeon where their tools are with respect to preoperative supine Magnetic Resonance (MR) Images, tracked ultrasound images, and a model view of the breast and tumor. </p>
 
 							<p>A surgeon can write on a patients skin with an indellible marker to create fiducials that are easily sterilized, can remain on the skin throughout surgery, and can be tracked to provide data to a continuously updating image guidance system. </p>
 
-							<p>In 2018, we showed that breast surface points could be automatically tracked using a stereo vision system. 
+							<p> When evaluated across 8 healthy volunteer breasts, an average of 85.6 ± 5.9%
+								of visible fiducials were automatically detected and tracked, and
+								99.1 ± 1.1% of frames provided only true positive fiducial
+								measurements, which indicates the algorithm achieves a data
+								stream that can be used for reliable on-line registration.
+							    Tracking was robust to occlusions, displacements, and
+								most shape distortions. This work-flow friendly data
+								collection method provides highly accurate and precise three-dimensional
+								surface data to drive an image guidance system for
+								breast conserving surgery.</p>
+
+							<ul><li> <b>W. L. Richey</b>, J. S. Heiselman,  M. J. Ringel, I. M. Meszoely, and M. I. Miga, "Soft tissue monitoring of the surgical field: detection and tracking of breast surface deformations</a>," IEEE Transactions in Biomedical Engineering, 2023. </li></ul>
+
+							<p><a href="files/Richey2022_SoftTissueMonitoringOfTheSurgicalField_preprint.pdf" class="button">View PDF</a> 
+							</p>
+							<p>In 2018, we showed that phantom breast surface points could be automatically tracked using a stereo vision system. 
 							<ul> <li><b>W.L. Richey</b>, M. Luo, S. E. Goodale, L. W. Clements, I. M. Meszoely, and M. I. Miga, "A system for automatic monitoring of surgical instruments and dynamic, non-rigid surface deformations in breast cancer surgery," in Medical Imaging 2018: Image-Guided Procedures, Robotic Interventions, and Modeling, 2018, vol. 10576, p. 105761H: International Society for Optics and Photonics.</li></ul> 
 
 							<a href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11315/113151L/Textual-fiducial-detection-in-breast-conserving-surgery-for-a-near/10.1117/12.2550662.full?casa_token=u4W_fty1dKwAAAAA%3a3t56qtON_CqfEntrvX2XD-ti5r6efXU6VQeDfo2guggjXYfUaXLEDQfuQCrkP5gfcqLuHfY&SSO=1" target="_blank" class ="button">  Read More about this work at SPIE Medical Imaging 2018 </a> </p>
-
+							<span class="image fit"><img src="images/Correspondence.jpg" alt="Stereo camera images with fiducials identified." /></span>
 
 							<p>In 2020 we showed that a simple program can identify character fiducials with 89% accuracy using the MATLAB built in optical character recognition function, and an average of 81% of points can be accurately labeled and localized even across multiple skin tones. We also compared the accuracy of our stereo camera system to conventional optically tracked stylus points. 
 
